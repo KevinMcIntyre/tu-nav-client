@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TU-Nav</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="google_maps_key">AIzaSyAIaFAolxI1JfcKHDiB7WE6pU0hqhNd2Lc</string>
+</resources>

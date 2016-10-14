@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_building_one"
+            android:icon="@mipmap/ic_nav_building"
+            android:title="Building One" />
+        <item
+            android:id="@+id/nav_building_two"
+            android:icon="@mipmap/ic_nav_building"
+            android:title="Building Two" />
+        <item
+            android:id="@+id/nav_building_three"
+            android:icon="@mipmap/ic_nav_building"
+            android:title="Building Three" />
+        <item
+            android:id="@+id/nav_building_four"
+            android:icon="@mipmap/ic_nav_building"
+            android:title="Building Four" />
+        <item
+            android:id="@+id/nav_building_five"
+            android:icon="@mipmap/ic_nav_building"
+            android:title="Building Five"/>
+        <item
+            android:id="@+id/nav_building_six"
+            android:icon="@mipmap/ic_nav_building"
+            android:title="Building Six"/>
+        <item
+            android:id="@+id/nav_building_seven"
+            android:icon="@mipmap/ic_nav_building"
+            android:title="Building Seven"/>
+    </group>
+</menu>
