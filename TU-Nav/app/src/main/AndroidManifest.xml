@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.TU.tu_nav">
+    package="com.tu.tu_nav">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
-        android:name="com.TU.tu_nav.utils.AppGlobals"
+        android:name="com.tu.tu_nav.utils.AppGlobals"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="false"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.TU.tu_nav.MainActivity"
+            android:name="com.tu.tu_nav.MainActivity"
             android:screenOrientation="portrait"
             android:label="@string/app_name"
             android:theme="@style/Theme.MainActivity"
@@ -26,13 +26,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.TU.tu_nav.SecondaryActivity"
+            android:name="com.tu.tu_nav.SecondaryActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.TransparentSecondaryActivity"
             android:windowSoftInputMode="adjustResize">
         </activity>
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key" />
+            android:value="AIzaSyCILJWNLRCPCsL8EdRm-yQMW1LlfxTzeT4" />
     </application>
 </manifest>

@@ -33,7 +33,7 @@
             android:background="@drawable/background_edit_text"
             android:textCursorDrawable="@null"
             android:textSize="18dp"
-            android:hint="TU E-Mail"
+            android:hint="E-Mail"
             android:maxLength="32"
             android:textColor="#ffffff"
             android:inputType="textEmailAddress"
@@ -69,12 +69,4 @@
             android:textColor="@drawable/button_text_color"
             android:background="@drawable/background_button" />
     </LinearLayout>
-
-    <TextView
-        android:text="Must be a Temple University Student"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/ll_welcome_login"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/textView" />
 </RelativeLayout>

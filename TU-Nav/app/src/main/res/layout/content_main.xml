@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.byteshaft.tu_nav.MainActivity"
+    tools:context="com.tu.tu_nav.MainActivity"
     tools:showIn="@layout/app_bar_main">
     <android.support.design.widget.CoordinatorLayout
         android:layout_width="match_parent"

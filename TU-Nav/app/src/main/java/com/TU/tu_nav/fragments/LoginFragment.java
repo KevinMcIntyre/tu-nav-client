@@ -1,4 +1,4 @@
-package com.TU.tu_nav.fragments;
+package com.tu.tu_nav.fragments;
 
 import android.app.Fragment;
 import android.app.Service;
@@ -20,10 +20,10 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
-import com.TU.tu_nav.R;
-import com.TU.tu_nav.utils.AppGlobals;
-import com.TU.tu_nav.utils.Helpers;
-import com.TU.tu_nav.utils.SoftKeyboard;
+import com.tu.tu_nav.R;
+import com.tu.tu_nav.utils.AppGlobals;
+import com.tu.tu_nav.utils.Helpers;
+import com.tu.tu_nav.utils.SoftKeyboard;
 
 public class LoginFragment extends Fragment implements View.OnClickListener {
 
@@ -138,9 +138,7 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
 
         animMainLogoFading.setAnimationListener(new Animation.AnimationListener() {
             @Override
-            public void onAnimationStart(Animation animation) {
-
-            }
+            public void onAnimationStart(Animation animation) {}
 
             @Override
             public void onAnimationEnd(Animation animation) {
@@ -148,9 +146,7 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
             }
 
             @Override
-            public void onAnimationRepeat(Animation animation) {
-
-            }
+            public void onAnimationRepeat(Animation animation) {}
         });
         return baseViewLoginFragment;
     }

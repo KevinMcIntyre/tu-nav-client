@@ -6,7 +6,7 @@
     android:background="@android:color/transparent"
     android:focusableInTouchMode="true"
     android:orientation="vertical"
-    tools:context="com.byteshaft.tu_nav.MainActivity">
+    tools:context="com.tu.tu_nav.MainActivity">
 
     <ScrollView
         android:layout_width="match_parent"

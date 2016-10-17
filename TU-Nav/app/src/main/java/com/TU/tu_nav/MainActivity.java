@@ -1,4 +1,4 @@
-package com.TU.tu_nav;
+package com.tu.tu_nav;
 
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -37,8 +37,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.TU.tu_nav.utils.AppGlobals;
-import com.TU.tu_nav.utils.Helpers;
+import com.tu.tu_nav.utils.AppGlobals;
+import com.tu.tu_nav.utils.Helpers;
 import com.directions.route.Route;
 import com.directions.route.Routing;
 import com.directions.route.RoutingListener;
@@ -223,11 +223,11 @@ public class MainActivity extends AppCompatActivity
                     // to handle the case where the user grants the permission. See the documentation
                     // for ActivityCompat#requestPermissions for more details.
                     Helpers.AlertDialogWithPositiveNegativeFunctions(MainActivity.this , "Permission Denied",
-                            "You need to grant permissions to use Location Services for Briver", "Settings",
+                            "You need to grant permissions to use Location Services for TU-Nav", "Settings",
                             "Exit App", Helpers.openPermissionsSettingsForMarshmallow, Helpers.exitApp);
                 } else if (!Helpers.checkPlayServicesAvailability(MainActivity.this)) {
                     Helpers.AlertDialogWithPositiveNegativeFunctions(MainActivity.this, "Location components missing",
-                            "You need to install GooglePlayServices to continue using Briver", "Install",
+                            "You need to install GooglePlayServices to continue using TU-Nav", "Install",
                             "Exit App", Helpers.openPlayServicesInstallation, Helpers.exitApp);
                 } else if (!Helpers.isAnyLocationServiceAvailable()) {
                     Helpers.AlertDialogWithPositiveNegativeFunctions(MainActivity.this, "Location Service disabled",
@@ -670,7 +670,7 @@ public class MainActivity extends AppCompatActivity
                     public void onFinish() {
                         if (AppGlobals.isMapFirstRun()) {
                             Helpers.AlertDialogMessage(MainActivity.this, "One Time Message",
-                                    "Tap and hold anywhere on the MapView to set destination point and start navigation", "Ok");
+                                    "Welcome to TU-Nav, you must have Temple University email to sign up. Guests are welcome to use the navigation, but will not be able to sign up. Thank You!", "Ok");
                             AppGlobals.setMapFirstRun(false);
                         } else {
                             Helpers.showSnackBar(coordinatorLayout, "Tap and hold to set Destination point",
@@ -682,7 +682,7 @@ public class MainActivity extends AppCompatActivity
                     public void onCancel() {
                         if (AppGlobals.isMapFirstRun()) {
                             Helpers.AlertDialogMessage(MainActivity.this, "One Time Message",
-                                    "Tap and hold anywhere on the MapView to set destination point and start navigation", "Ok");
+                                    "Welcome to TU-Nav, you must have Temple University email to sign up. Guests are welcome to use the navigation, but will not be able to sign up. Thank You!", "Ok");
                             AppGlobals.setMapFirstRun(false);
                         } else {
                             Helpers.showSnackBar(coordinatorLayout, "Tap and hold to set Destination point",

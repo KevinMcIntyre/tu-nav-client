@@ -1,4 +1,4 @@
-package com.TU.tu_nav;
+package com.tu.tu_nav;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -6,8 +6,8 @@ import android.app.FragmentManager;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.TU.tu_nav.fragments.LoginFragment;
-import com.TU.tu_nav.fragments.RegisterFragment;
+import com.tu.tu_nav.fragments.LoginFragment;
+import com.tu.tu_nav.fragments.RegisterFragment;
 
 public class SecondaryActivity extends Activity {
 
