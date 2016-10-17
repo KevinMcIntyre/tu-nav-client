@@ -1,4 +1,4 @@
-package com.byteshaft.tu_nav.utils;
+package com.TU.tu_nav.utils;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -21,8 +21,8 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.byteshaft.tu_nav.MainActivity;
-import com.byteshaft.tu_nav.SecondaryActivity;
+import com.TU.tu_nav.MainActivity;
+import com.TU.tu_nav.SecondaryActivity;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 import com.google.android.gms.maps.model.LatLng;

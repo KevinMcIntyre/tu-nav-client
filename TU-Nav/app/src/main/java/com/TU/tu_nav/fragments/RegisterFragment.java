@@ -1,4 +1,4 @@
-package com.byteshaft.tu_nav.fragments;
+package com.TU.tu_nav.fragments;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -11,8 +11,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.byteshaft.tu_nav.R;
-import com.byteshaft.tu_nav.utils.Helpers;
+import com.TU.tu_nav.R;
+import com.TU.tu_nav.utils.Helpers;
 
 public class RegisterFragment extends Fragment implements View.OnClickListener {
 

@@ -33,7 +33,7 @@
             android:background="@drawable/background_edit_text"
             android:textCursorDrawable="@null"
             android:textSize="18dp"
-            android:hint="E-Mail"
+            android:hint="TU E-Mail"
             android:maxLength="32"
             android:textColor="#ffffff"
             android:inputType="textEmailAddress"
@@ -71,11 +71,10 @@
     </LinearLayout>
 
     <TextView
-        android:text="Must have Temple University email"
+        android:text="Must be a Temple University Student"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/ll_welcome_login"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="17dp"
         android:id="@+id/textView" />
 </RelativeLayout>

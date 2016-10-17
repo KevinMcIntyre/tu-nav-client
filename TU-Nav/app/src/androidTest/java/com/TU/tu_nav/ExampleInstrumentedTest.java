@@ -1,4 +1,4 @@
-package com.byteshaft.tu_nav;
+package com.TU.tu_nav;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

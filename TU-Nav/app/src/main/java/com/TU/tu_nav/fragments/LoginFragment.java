@@ -1,4 +1,4 @@
-package com.byteshaft.tu_nav.fragments;
+package com.TU.tu_nav.fragments;
 
 import android.app.Fragment;
 import android.app.Service;
@@ -20,10 +20,10 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
-import com.byteshaft.tu_nav.R;
-import com.byteshaft.tu_nav.utils.AppGlobals;
-import com.byteshaft.tu_nav.utils.Helpers;
-import com.byteshaft.tu_nav.utils.SoftKeyboard;
+import com.TU.tu_nav.R;
+import com.TU.tu_nav.utils.AppGlobals;
+import com.TU.tu_nav.utils.Helpers;
+import com.TU.tu_nav.utils.SoftKeyboard;
 
 public class LoginFragment extends Fragment implements View.OnClickListener {
 

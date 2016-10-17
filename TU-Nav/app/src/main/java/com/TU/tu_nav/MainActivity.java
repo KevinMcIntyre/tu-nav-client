@@ -1,4 +1,4 @@
-package com.byteshaft.tu_nav;
+package com.TU.tu_nav;
 
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -37,8 +37,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.byteshaft.tu_nav.utils.AppGlobals;
-import com.byteshaft.tu_nav.utils.Helpers;
+import com.TU.tu_nav.utils.AppGlobals;
+import com.TU.tu_nav.utils.Helpers;
 import com.directions.route.Route;
 import com.directions.route.Routing;
 import com.directions.route.RoutingListener;
@@ -211,7 +211,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onMapReady(GoogleMap googleMap) {
                 mMap = googleMap;
-                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(22.685677, 79.408410), 4.0f));
+                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(40.0053, 75.1507), 4.0f));
                 if (ActivityCompat.checkSelfPermission(MainActivity.this, android.Manifest.permission.ACCESS_FINE_LOCATION) !=
                         PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(MainActivity.this,
                         android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {

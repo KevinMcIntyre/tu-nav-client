@@ -1,4 +1,4 @@
-package com.byteshaft.tu_nav.utils;
+package com.TU.tu_nav.utils;
 
 import android.app.Application;
 import android.content.Context;
